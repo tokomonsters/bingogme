@@ -1,0 +1,994 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 347
+  ClientWidth = 669
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object PathAnimation1: TPathAnimation
+    Duration = 0.200000002980232200
+  end
+  object SwipeTransitionEffect1: TSwipeTransitionEffect
+    Deep = 50.000000000000000000
+  end
+  object Button1: TButton
+    StyledSettings = [Family, Style]
+    Position.X = 462.000000000000000000
+    Position.Y = 209.000000000000000000
+    Size.Width = 157.000000000000000000
+    Size.Height = 119.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = #55356#57266#25277#29260
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.FontColor = claBlueviolet
+    OnClick = Button1Click
+  end
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 669.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object LN2: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 55.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN3: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 97.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN4: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN1: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.X = 14.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN5: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 180.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN6: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 222.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN7: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 264.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN8: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 306.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN9: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 347.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN10: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 389.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN11: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 431.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN12: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 472.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN14: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 556.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN15: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 598.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN13: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 514.000000000000000000
+      Position.Y = 17.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 5.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = #55357#56447' '#26032#23616
+    OnClick = Button2Click
+  end
+  object Panel2: TPanel
+    Align = Top
+    Position.Y = 145.000000000000000000
+    Size.Width = 669.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object LN62: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 55.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN63: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 97.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN64: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN61: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN65: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 180.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN66: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 222.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN67: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 264.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN68: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 306.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN69: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 347.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN70: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 389.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN71: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 431.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN72: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 472.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN74: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 556.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN75: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 598.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN73: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 514.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+  end
+  object Panel3: TPanel
+    Align = Top
+    Position.Y = 113.000000000000000000
+    Size.Width = 669.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object LN47: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 55.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN48: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 97.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN49: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN46: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN50: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 180.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN51: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 222.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN52: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 264.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN53: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 306.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN54: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 347.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN55: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 389.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN56: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 431.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN57: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 472.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN59: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 556.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN60: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 598.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN58: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 514.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+  end
+  object Panel4: TPanel
+    Align = Top
+    Position.Y = 81.000000000000000000
+    Size.Width = 669.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object LN32: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 55.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN33: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 97.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN34: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN31: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN35: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 180.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN36: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 222.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN37: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 264.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN38: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 306.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN39: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 347.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN40: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 389.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN41: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 431.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN42: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 472.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN44: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 556.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN45: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 598.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN43: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 514.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+  end
+  object Panel5: TPanel
+    Align = Top
+    Position.Y = 49.000000000000000000
+    Size.Width = 669.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object LN17: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 55.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN18: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 97.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN19: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN16: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN20: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 180.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN21: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 222.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN22: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 264.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN23: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 306.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN24: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 347.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN25: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 389.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN26: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 431.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN27: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 472.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN29: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 556.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN30: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 598.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+    object LN28: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 514.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.WordWrap = False
+      Text = '66'
+    end
+  end
+  object MainL: TLabel
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 224.000000000000000000
+    Position.Y = 163.000000000000000000
+    Size.Width = 182.000000000000000000
+    Size.Height = 157.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 130.000000000000000000
+    TextSettings.FontColor = claBlue
+    TextSettings.WordWrap = False
+    Text = '99'
+  end
+end
